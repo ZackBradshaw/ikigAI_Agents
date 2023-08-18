@@ -1,4 +1,3 @@
-```python
 from backend.config import config
 from backend.database import ChromaDB
 
@@ -32,4 +31,3 @@ class SurveyAnalysisAgent:
         completion_percentage = len(completed_tasks) / len(tasks) * 100
 
         return completion_percentage
-```

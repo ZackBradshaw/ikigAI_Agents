@@ -1,4 +1,3 @@
-```python
 from flask import Blueprint, request, jsonify
 from backend.agents.chat_interface_agent import start_chat, provide_task_guidance, store_chat_history
 
@@ -22,4 +21,3 @@ def store_chat_history_endpoint():
     chat_data = request.json.get('chat_data')
     response = store_chat_history(user_id, chat_data)
     return jsonify(response)
-```

@@ -1,4 +1,3 @@
-```python
 import unittest
 from unittest.mock import patch
 from agents.time_agent import TimeAgent
@@ -48,4 +47,3 @@ class TestTimeAgent(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```

@@ -1,4 +1,3 @@
-```python
 import unittest
 from unittest.mock import patch
 from agents import survey_analysis_agent
@@ -25,4 +24,3 @@ class TestSurveyAnalysisAgent(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```

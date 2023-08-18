@@ -1,4 +1,3 @@
-```python
 import unittest
 from unittest.mock import patch
 from agents.chat_interface_agent import start_chat, provide_task_guidance, store_chat_history
@@ -25,4 +24,3 @@ class TestChatInterfaceAgent(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-```

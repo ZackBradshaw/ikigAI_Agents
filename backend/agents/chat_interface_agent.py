@@ -1,4 +1,3 @@
-```python
 from flask import Flask, request
 from config import Config
 import chroma_db
@@ -45,4 +44,3 @@ def store_chat_history():
     agent = ChatInterfaceAgent(data['user_id'])
     agent.store_chat_history(data['chat_data'])
     return {'status': 'Chat history stored'}
-```

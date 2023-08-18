@@ -1,4 +1,3 @@
-```python
 from flask import Blueprint, request, jsonify
 from backend.agents.time_agent import monitor_user_performance, get_task_completion_percentage, track_daily_task_completion
 
@@ -21,4 +20,3 @@ def track_task_completion():
     user_id = request.json.get('user_id')
     result = track_daily_task_completion(user_id)
     return jsonify(result), 200
-```
