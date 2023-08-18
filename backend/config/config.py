@@ -1,4 +1,3 @@
-```python
 import os
 
 class Config:
@@ -15,4 +14,3 @@ class Config:
     CHROMADB_URI = os.environ.get('CHROMADB_URI') or 'mongodb://localhost:27017/myDatabase'
     CHROMADB_USERNAME = os.environ.get('CHROMADB_USERNAME') or 'user'
     CHROMADB_PASSWORD = os.environ.get('CHROMADB_PASSWORD') or 'pass'
-```

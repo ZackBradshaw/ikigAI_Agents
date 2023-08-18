@@ -1,4 +1,3 @@
-```python
 from flask import Blueprint, request
 from backend.agents.survey_analysis_agent import analyze_and_store_goals, generate_daily_tasks, calculate_task_completion_percentage
 
@@ -17,4 +16,3 @@ def generate_daily_tasks_route():
 @survey_endpoint.route('/calculate_task_completion_percentage/<user_id>', methods=['GET'])
 def calculate_task_completion_percentage_route(user_id):
     return calculate_task_completion_percentage(user_id)
-```

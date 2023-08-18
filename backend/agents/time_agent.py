@@ -1,4 +1,3 @@
-```python
 from flask import Flask
 from config import Config
 from chroma import ChromaDB
@@ -38,4 +37,3 @@ class TimeAgent:
     def send_motivational_messages(self):
         # Implementation of motivational message sending
         pass
-```
